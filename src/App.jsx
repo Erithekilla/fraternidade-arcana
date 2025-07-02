@@ -10,7 +10,7 @@ function App() {
       <Header />
       <section className="wallpaper">
         <div className="img_wallpaper">
-          <h1>Erick é muito zika vsfd muahahahusdahdahs</h1>
+          <h1>Louvado sejam os Deuses!</h1>
         </div>
       </section>
       
