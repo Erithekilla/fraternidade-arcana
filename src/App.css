@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body{
+    background-image: url('../public/img/pexels-frank-cone-140140-3607542.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-position: center center;
+}
+
+.img_wallpaper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../public/img/Alexandre_Cabanel_-_Fallen_Angel.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.img_wallpaper h1{
+    font-size: 38px;
+    color: white;
+    text-shadow:
+        -2px -2px 0 #000,
+        -2px -2px 0 #000,
+        -2px -2px 0 #000,
+        2px 2px 0 #000;
+}
+
+
