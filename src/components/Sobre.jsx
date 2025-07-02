@@ -1,4 +1,6 @@
 import styles from './Sobre.module.css'
+import eris from '../../public/img/erick.jpeg'
+import marlyn from '../../public/img/marlyn.png'
 
 function Sobre(){
     return(
@@ -9,7 +11,7 @@ function Sobre(){
         <div className={styles.sobre}>
           <div className={styles.marlyn}>
             <div className={styles.img_marlyn}>
-              <img src="../public/img/marlyn.png" alt="" />
+              <img src={marlyn} alt="" />
             </div>
             <div className={styles.desc_marlyn}>
               <h2>Marlyn - Dono</h2>
@@ -18,7 +20,7 @@ function Sobre(){
           </div>
           <div className={styles.eris}>
             <div className={styles.img_eris}>
-              <img src="../public/img/erick.jpeg" alt="" />
+              <img src={eris} alt="" />
             </div>
             <div className={styles.desc_eris}>
               <h2>Eris - SubDono</h2>
