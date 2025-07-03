@@ -18,7 +18,7 @@ function Trabalhos(){
                         </div>
                         <img src={tarot} alt="Tarot" />
                         <div className={styles.link_card}>
-                            <a href="#">Clique para contato!</a>
+                            <a href="https://w.app/marlyn" target="_blank">Clique para contato!</a>
                         </div>
                     </div>
                 </div>
@@ -27,9 +27,9 @@ function Trabalhos(){
                         <div className={styles.trabalho_text}>
                             <h2>Interpretação de sonhos</h2>
                         </div>
-                        <img src={sonhos} alt="Tarot" />
+                        <img src={sonhos} alt="Sonhos" />
                         <div className={styles.link_card}>
-                            <a href="#">Clique para contato!</a>
+                            <a href="https://w.app/marlyn" target="_blank">Clique para contato!</a>
                         </div>
                     </div>
                 </div>
@@ -38,9 +38,9 @@ function Trabalhos(){
                         <div className={styles.trabalho_text}>
                             <h2>Numerologia</h2>
                         </div>
-                        <img src={numerologia} alt="Tarot" />
+                        <img src={numerologia} alt="Numerologia" />
                         <div className={styles.link_card}>
-                            <a href="#">Clique para contato!</a>
+                            <a href="https://w.app/marlyn" target="_blank">Clique para contato!</a>
                         </div>
                     </div>
                 </div>
@@ -49,9 +49,9 @@ function Trabalhos(){
                         <div className={styles.trabalho_text}>
                             <h2>Vidas passadas</h2>
                         </div>
-                        <img src={vidas_passadas} alt="Tarot" />
+                        <img src={vidas_passadas} alt="Vidas passadas" />
                         <div className={styles.link_card}>
-                            <a href="#">Clique para contato!</a>
+                            <a href="https://w.app/marlyn" target="_blank">Clique para contato!</a>
                         </div>
                     </div>
                 </div>

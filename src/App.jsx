@@ -13,7 +13,6 @@ function App() {
           <h1>Louvado sejam os Deuses!</h1>
         </div>
       </section>
-      
       <Trabalhos/>
       <Sobre/>
       <Footer />

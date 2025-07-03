@@ -16,7 +16,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(root, 'index.html'),
-        trabalhos: resolve(root, 'trabalhos', 'index.html')
+        trabalhos: resolve(root, 'trabalhos', 'index.html'),
+        oiac: resolve(root, 'oiac', 'index.html')
       }
     }
   }
