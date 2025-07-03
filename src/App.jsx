@@ -2,6 +2,7 @@ import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
 import Trabalhos from './components/Trabalhos.jsx';
 import Sobre from './components/Sobre.jsx';
+import Fraternidade from './components/Fraternidade.jsx'
 import './App.css';
 function App() {
 
@@ -13,8 +14,7 @@ function App() {
           <h1>Louvado sejam os Deuses!</h1>
         </div>
       </section>
-      <Trabalhos/>
-      <Sobre/>
+      <Fraternidade />
       <Footer />
     </>
   )

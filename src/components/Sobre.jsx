@@ -24,7 +24,7 @@ function Sobre(){
             </div>
             <div className={styles.desc_eris}>
               <h2>Eris - SubDono</h2>
-              <p>Daemonolotra praticante, criador do sistema simplificado da Daemonolatria. Atuo com a Daemonolatria desde 2024, e desde então crio técnicas para facilitar a conexão do praticante com a entidade e ter grandes resultados.</p>
+              <p>Daemonolotra praticante, criando um sistema simplificado da Daemonolatria. Atuo com a Daemonolatria desde 2024, e desde então crio técnicas para facilitar a conexão do praticante com a entidade e ter grandes resultados.</p>
             </div>
           </div>
         </div>

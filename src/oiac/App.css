@@ -1,7 +1,8 @@
 .oiac_title{
-    width: 60vh;
+    width: 100vh;
     margin: 20px auto;
     background-color: rgba(255,255,255,0.6);
+    box-shadow: 5px 5px 5px black;
     border-radius: 15px;
     text-align: center;
 }
@@ -10,6 +11,10 @@
     width: 80%;
     margin: 0 auto;
     text-align: center;
+}
+
+.oiac_main h1{
+    font-size: 36px;
 }
 
 .oiac_main img{
@@ -21,6 +26,7 @@
     width: 80vh;
     margin: 20px auto;
     background-color: rgba(255,255,255,0.6);
+    box-shadow: 5px 5px 5px black;
     border-radius: 15px;
     text-align: center;
 }
@@ -28,6 +34,27 @@
 .oiac_text p{
     line-height: 1.5;
 }
+
+.oiac_btn{
+    padding: 15px 50px;
+    border: none;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.link_oiac{
+    margin: 20px auto;
+}
+
+a .oiac_btn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
 
 @media (max-width: 900px) {
     .oiac_text{
@@ -42,6 +69,10 @@
     .oiac_main img{
         width: 80%;
         height: auto;
+    }
+
+    .oiac_btn{
+        width: 100%;
     }
 
 }
