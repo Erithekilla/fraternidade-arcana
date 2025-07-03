@@ -1,1 +1,0 @@
-import{j as r,H as e,T as t,F as s,c as o,r as a}from"./Trabalhos-yCBErfDw.js";function n(){return r.jsxs(r.Fragment,{children:[r.jsx(e,{}),r.jsx(t,{}),r.jsx(s,{})]})}o.createRoot(document.getElementById("root")).render(r.jsx(a.StrictMode,{children:r.jsx(n,{})}));
