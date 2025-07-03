@@ -1,11 +1,11 @@
-.img_eris img,
-.img_marlyn img{
-    max-width: 250px;
+.marlyn img,
+.eris img{
     width: auto;
-    border: 1px solid rgb(0, 0, 0);
     border-radius: 15px;
+    margin: 5px 0 0 0;
     height: auto;
-    object-fit: cover;
+    max-width: 240px;
+    border: 1px solid black;
 }
 
 .sobre_nos{
@@ -23,10 +23,9 @@
 .sobre{
     display: flex;
     justify-content: center;
-    padding: 20px;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 80px;
+    gap: 20px;
     text-align: center;
 }
 
@@ -36,7 +35,7 @@
     border-radius: 15px;
     padding: 20px;
     box-shadow: 5px 5px 5px black;
-    width: 45%;
+    width: 48%;
 }
 
 .desc_eris,
@@ -52,16 +51,7 @@
     border-radius: 15px;
 }
 
-@media (max-width: 1280px) {
-    .eris,
-    .marlyn{
-        width: 50%;
-    }
 
-    .sobre_nos{
-        width: 100%;
-    }
-}
 
 @media (max-width: 900px) {
     .eris,
@@ -71,5 +61,12 @@
 
     .sobre_nos{
         width: 100%;
+    }
+}
+
+@media (max-width: 340px){
+    .marlyn img,
+    .eris img{
+        width: 70%;
     }
 }
