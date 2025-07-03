@@ -4,3 +4,13 @@
   box-sizing: border-box;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+body{
+    background-image: url('../public/img/pexels-frank-cone-140140-3607542.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+}
