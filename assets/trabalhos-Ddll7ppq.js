@@ -1,0 +1,1 @@
+import{j as r,T as t,c as e,r as o}from"./Trabalhos-DK32Ib1q.js";function s(){return r.jsx(r.Fragment,{children:r.jsx(t,{})})}e.createRoot(document.getElementById("root")).render(r.jsx(o.StrictMode,{children:r.jsx(s,{})}));
