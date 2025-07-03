@@ -28,3 +28,20 @@
 .oiac_text p{
     line-height: 1.5;
 }
+
+@media (max-width: 900px) {
+    .oiac_text{
+        width: 100%;
+        margin: 20px auto;
+    }
+    
+    .oiac_title{
+        width: 100%;
+    }
+
+    .oiac_main img{
+        width: 80%;
+        height: auto;
+    }
+
+}
