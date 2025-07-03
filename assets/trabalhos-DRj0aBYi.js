@@ -1,1 +1,0 @@
-import{j as r,H as t,F as e,c as s,r as o}from"./Footer-CS2YB2xb.js";import{T as a}from"./Trabalhos-VYJnVASB.js";function n(){return r.jsxs(r.Fragment,{children:[r.jsx(t,{}),r.jsx(a,{}),r.jsx(e,{})]})}s.createRoot(document.getElementById("root")).render(r.jsx(o.StrictMode,{children:r.jsx(n,{})}));
