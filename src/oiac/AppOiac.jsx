@@ -15,7 +15,7 @@ function App() {
                     </div>
                     <img src={oiac} alt="" />
                     <div className="oiac_text">
-                        <p>A Ordem Iniciática - Árvore do Conhecimento (OIÁC) é uma ordem totalmente livre de religião e qualquer tipo de dogmas, somos uma ordem focada no aperfeiçoamento pessoal e conexão com o Divino.
+                        <p>A Ordem Iniciática - Árvore do Conhecimento (OIÁC), criada por Marlyn em 2023, é uma ordem totalmente livre de religião e qualquer tipo de dogmas, somos uma ordem focada no aperfeiçoamento pessoal e conexão com o Divino.
                         </p>
                         <br />
                         <p>
