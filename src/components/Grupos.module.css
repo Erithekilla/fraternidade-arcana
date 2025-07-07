@@ -1,0 +1,78 @@
+.title{
+    width: 100vh;
+    margin: 20px auto;
+    background-color: rgba(255,255,255,0.6);
+    box-shadow: 5px 5px 5px black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.grupos{
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.grupos h1{
+    font-size: 36px;
+}
+
+.grupos img{
+    width: 30%;
+    height: auto;
+}
+
+.text{
+    width: 80vh;
+    margin: 20px auto;
+    background-color: rgba(255,255,255,0.6);
+    box-shadow: 5px 5px 5px black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.text p{
+    line-height: 1.5;
+}
+
+.btn{
+    padding: 15px 50px;
+    border: none;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.link{
+    margin: 20px auto;
+}
+
+a .btn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 900px) {
+    .text{
+        width: 100%;
+        margin: 20px auto;
+    }
+    
+    .title{
+        width: 100%;
+    }
+
+    .grupo img{
+        width: 80%;
+        height: auto;
+    }
+
+    .btn{
+        width: 100%;
+    }
+
+}

@@ -17,7 +17,8 @@ export default defineConfig({
       input: {
         main: resolve(root, 'index.html'),
         trabalhos: resolve(root, 'trabalhos', 'index.html'),
-        oiac: resolve(root, 'oiac', 'index.html')
+        oiac: resolve(root, 'oiac', 'index.html'),
+        grupos: resolve(root, 'grupos', 'index.html')
       }
     }
   }
