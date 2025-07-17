@@ -1,5 +1,5 @@
 .title{
-    width: 30vh;
+    width: 50vh;
     margin: 20px auto;
     background-color: rgba(255,255,255,0.6);
     box-shadow: 5px 5px 5px black;
@@ -7,8 +7,12 @@
     text-align: center;
 }
 
+.title h1{
+    font-size: 36px;
+}
+
 .biblioteca{
-    width: 80%;
+    width: 60%;
     margin: 50px auto;
     
 }
@@ -24,4 +28,44 @@
     background-color: rgba(255,255,255,0.6);
     box-shadow: 5px 5px 5px black;
     border-radius: 15px;
+}
+
+.img{
+    margin: 20px auto;
+    width: 40%;
+}
+
+.img img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.drive{
+    margin: 50px auto;
+    width: 60%;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.6);
+    box-shadow: 5px 5px 5px black;
+    border-radius: 15px;
+}
+
+.link_drive{
+    margin: 10px;
+}
+
+.link_drive a button{
+    border: none;
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.link_drive a button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
