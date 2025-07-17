@@ -18,7 +18,8 @@ export default defineConfig({
         main: resolve(root, 'index.html'),
         trabalhos: resolve(root, 'trabalhos', 'index.html'),
         oiac: resolve(root, 'oiac', 'index.html'),
-        grupos: resolve(root, 'grupos', 'index.html')
+        grupos: resolve(root, 'grupos', 'index.html'),
+        biblioteca: resolve(root, 'biblioteca', 'index.html')
       }
     }
   }

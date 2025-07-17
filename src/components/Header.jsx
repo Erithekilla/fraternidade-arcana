@@ -15,6 +15,7 @@ function Header() {
                         <li><a href={`${base}grupos/`}>Grupos</a></li>
                         <li><a href={`${base}oiac/`}>OIÁC</a></li>
                         <li><a href={`${base}trabalhos/`}>Trabalhos</a></li>
+                        <li><a href={`${base}biblioteca/`}>Biblioteca</a></li>
                     </ul>
                 </div>
             </section>
