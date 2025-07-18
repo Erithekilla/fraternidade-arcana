@@ -55,7 +55,7 @@
     margin: 10px;
 }
 
-.link_drive a button{
+a button{
     border: none;
     padding: 10px 20px;
     background-color: black;
@@ -65,7 +65,7 @@
     transition: 0.2s;
 }
 
-.link_drive a button:hover{
+a button:hover{
     transform: scale(1.1);
     cursor: pointer;
 }
