@@ -13,8 +13,7 @@
 
 .biblioteca{
     width: 60%;
-    margin: 50px auto;
-    
+    margin: 50px auto;   
 }
 
 .biblioteca h2{
@@ -73,6 +72,11 @@ a button:hover{
 @media (max-width: 768px) {
     .img{
         width: 100%;
+    }
+
+    .biblioteca,
+    .drive{
+        width: 90%;
     }
     
 }
