@@ -8,7 +8,7 @@ const outDir = resolve(__dirname, 'dist')
 // https://vite.dev/config/
 export default defineConfig({
   root,
-  base: '/fraternidade-arcana/',
+  base: './',
   plugins: [react()],
   build: {
     outDir,
