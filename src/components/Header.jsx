@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import styles from './Header.module.css';
 
-const base = import.meta.env.BASE_URL || '/fraternidade-arcana/';
+const base = import.meta.env.BASE_URL || './';
 
 function Header() {
 
