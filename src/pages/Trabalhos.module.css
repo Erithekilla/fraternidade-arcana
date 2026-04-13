@@ -1,0 +1,143 @@
+/* Trabalhos.module.css */
+
+.title {
+  text-align: center;
+  margin: 60px auto 12px;
+  width: fit-content;
+  padding: 14px 52px;
+  background: linear-gradient(135deg, rgba(20,18,14,0.9), rgba(10,10,10,0.95));
+  border: 1px solid rgba(201,168,76,0.4);
+  border-radius: 2px;
+}
+
+.title h1 {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(20px, 3vw, 32px);
+  font-weight: 700;
+  color: var(--gold-light);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+/* Ornamental divider */
+.title::after {
+  content: '✦ ✦ ✦';
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.6em;
+  color: var(--gold-dark);
+  margin-top: 6px;
+}
+
+.trabalho_sessao {
+  margin: 40px auto 60px;
+  width: 90%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  justify-items: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 260px;
+}
+
+.trabalho_card {
+  background: linear-gradient(160deg, rgba(22,19,14,0.92), rgba(10,8,6,0.97));
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  padding: 24px 20px;
+  text-align: center;
+  transition: transform 0.35s ease, box-shadow 0.35s ease, border-color 0.35s ease;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+
+.trabalho_card::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--gold-dark), transparent);
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.trabalho_card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(201,168,76,0.55);
+  box-shadow: 0 16px 48px rgba(0,0,0,0.7), 0 0 30px rgba(201,168,76,0.1);
+}
+
+.trabalho_card:hover::before { opacity: 1; }
+
+.trabalho_text h2 {
+  min-height: 38px;
+  font-family: 'Cinzel', serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--gold-light);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.trabalho_card img {
+  width: 100%;
+  flex-shrink: 0;
+  position: static;
+  max-width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 1px;
+  border: 1px solid rgba(201,168,76,0.25);
+  filter: grayscale(30%) sepia(10%);
+  transition: filter 0.4s ease;
+}
+
+.trabalho_card:hover img {
+  filter: grayscale(0%) sepia(5%);
+}
+
+.link_card {
+  margin-top: auto;
+}
+
+.link_card a {
+  display: inline-block;
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  background: linear-gradient(135deg, rgba(201,168,76,0.12), rgba(201,168,76,0.04));
+  border: 1px solid rgba(201,168,76,0.45);
+  padding: 10px 20px;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.link_card a:hover {
+  background: rgba(201,168,76,0.2);
+  box-shadow: 0 0 18px rgba(201,168,76,0.2);
+  text-shadow: 0 0 8px rgba(201,168,76,0.4);
+}
+
+@media (max-width: 600px) {
+  .trabalho_sessao { grid-template-columns: 1fr 1fr; }
+  .title { padding: 12px 28px; }
+}
+
+@media (max-width: 400px) {
+  .trabalho_sessao { grid-template-columns: 1fr; }
+}

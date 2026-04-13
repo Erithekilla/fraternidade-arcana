@@ -1,0 +1,190 @@
+/* Sobre.module.css */
+
+.sobre_nos {
+  width: 85%;
+  max-width: 960px;
+  margin: 48px auto;
+  text-align: center;
+  padding: 32px 0;
+}
+
+.title {
+  width: fit-content;
+  margin: 0 auto 36px;
+  padding: 12px 40px;
+  background: linear-gradient(135deg, rgba(20,18,14,0.9), rgba(10,10,10,0.95));
+  border: 1px solid rgba(201,168,76,0.4);
+  border-radius: 2px;
+  position: relative;
+}
+
+.title::before {
+  content: '— ';
+  color: var(--gold);
+  font-family: 'Cinzel', serif;
+}
+.title::after {
+  content: ' —';
+  color: var(--gold);
+  font-family: 'Cinzel', serif;
+}
+
+.sobre_nos h1 {
+  display: inline;
+  font-family: 'Cinzel', serif;
+  font-size: clamp(18px, 2.5vw, 28px);
+  font-weight: 600;
+  color: var(--gold-light);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.sobre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.marlyn {
+  background: linear-gradient(160deg, rgba(22,19,14,0.9), rgba(12,10,8,0.95));
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  padding: 32px 24px;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.eris,
+.agatha {
+  background: linear-gradient(160deg, rgba(22,19,14,0.9), rgba(12,10,8,0.95));
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  padding: 32px 24px;
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Top shimmer on hover */
+.marlyn::before,
+.eris::before,
+.agatha::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.marlyn:hover,
+.eris:hover,
+.agatha:hover {
+  border-color: rgba(201,168,76,0.6);
+  box-shadow: 0 8px 40px rgba(0,0,0,0.6), 0 0 30px rgba(201,168,76,0.08);
+}
+
+.marlyn:hover::before,
+.eris:hover::before,
+.agatha:hover::before {
+  opacity: 1;
+}
+
+.marlyn img {
+  width: 160px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 1px;
+  border: 1px solid rgba(201,168,76,0.3);
+  filter: grayscale(20%) contrast(1.05);
+  transition: filter 0.4s ease;
+}
+
+.marlyn:hover img {
+  filter: grayscale(0%) contrast(1.1);
+}
+
+.desc_marlyn h2,
+.desc_eris h2,
+.desc_agatha h2 {
+  font-family: 'Cinzel', serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--gold-light);
+  letter-spacing: 0.1em;
+  margin-bottom: 10px;
+}
+
+.desc_marlyn,
+.desc_eris,
+.desc_agatha {
+  line-height: 1.7;
+}
+
+.eris a,
+.marlyn a {
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  background: linear-gradient(135deg, rgba(201,168,76,0.15), rgba(201,168,76,0.05));
+  border: 1px solid rgba(201,168,76,0.4);
+  padding: 10px 24px;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  margin-top: 8px;
+  display: inline-block;
+}
+
+.eris a:hover,
+.marlyn a:hover {
+  background: rgba(201,168,76,0.2);
+  box-shadow: 0 0 15px rgba(201,168,76,0.2);
+}
+
+.admins_row {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .admins_row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .eris, .agatha {
+    width: 100%;
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 900px) {
+  .marlyn { width: 100%; }
+  .sobre_nos { width: 95%; }
+}
+
+@media (max-width: 340px) {
+  .marlyn img { width: 80%; height: auto; }
+}

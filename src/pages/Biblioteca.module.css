@@ -1,0 +1,75 @@
+/* Biblioteca.module.css */
+
+.section {
+  padding: 20px 0 60px;
+}
+
+.title {
+  width: fit-content;
+  margin: 48px auto 16px;
+  padding: 14px 52px;
+  background: linear-gradient(135deg, rgba(20,18,14,0.9), rgba(10,10,10,0.95));
+  border: 1px solid rgba(201,168,76,0.4);
+  border-radius: 2px;
+  text-align: center;
+}
+
+.title h1 {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(20px, 3vw, 32px);
+  font-weight: 700;
+  color: var(--gold-light);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.title::after {
+  content: '✦ ✦ ✦';
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.6em;
+  color: var(--gold-dark);
+  margin-top: 6px;
+}
+
+.biblioteca {
+  width: 65%;
+  max-width: 780px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.descricao {
+  font-size: 15px;
+  line-height: 1.8;
+  color: var(--white-dim);
+  margin-bottom: 32px;
+}
+
+.btn {
+  font-family: 'Cinzel', serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  background: linear-gradient(135deg, rgba(201,168,76,0.12), rgba(201,168,76,0.04));
+  border: 1px solid rgba(201,168,76,0.45);
+  border-radius: 2px;
+  padding: 12px 28px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: rgba(201,168,76,0.2);
+  box-shadow: 0 0 20px rgba(201,168,76,0.2);
+  text-shadow: 0 0 8px rgba(201,168,76,0.4);
+  transform: translateY(-2px);
+}
+
+.link_drive { margin: 0; }
+
+@media (max-width: 768px) {
+  .biblioteca { width: 92%; }
+}
