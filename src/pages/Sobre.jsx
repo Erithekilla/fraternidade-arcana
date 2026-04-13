@@ -12,7 +12,7 @@ function Sobre(){
             <img src={marlyn} alt="" />
             <div className={styles.desc_marlyn}>
               <h2>Marlyn - Dono</h2>
-              <p>Mago Cabalísta e Daemonolotra, líder da Fraternidade Arcana. Atuo com magia tem mais de 5 anos. Venho trazendo conhecimento para aqueles que buscam.</p>
+              <p>Mago Cabalísta e Daemonolotra, líder da Fraternidade Arcana. Atuo com magia tem mais de 6 anos. Venho trazendo conhecimento para aqueles que buscam.</p>
             </div>
           </div>
           <div className={styles.admins_row}>
