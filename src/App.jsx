@@ -6,6 +6,7 @@ import Sobre from './pages/Sobre.jsx';
 import Fraternidade from './pages/Fraternidade.jsx'
 import Biblioteca from './pages/Biblioteca.jsx'
 import Informacoes from './components/Informacoes.jsx'
+import Astrologia from './pages/Astrologia.jsx'
 import './App.css';
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="/trabalhos" element={<Trabalhos />}></Route>
         <Route path="/sobre" element={<Sobre />}></Route>
         <Route path="/biblioteca" element={<Biblioteca />}></Route>
+        <Route path="/astrologia" element={<Astrologia />}></Route>
       </Routes>
       <Footer />
     </>

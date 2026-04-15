@@ -18,7 +18,7 @@ function Fraternidade() {
                 </div>
                 <Sobre />
                 <div className={styles.link}>
-                    <a href="https://chat.whatsapp.com/Ed71oiJzR4B1MoKdI34wPe" target="_blank"><button className={styles.btn}>Entre na Fraternidade!</button></a>
+                    <a href="https://chat.whatsapp.com/JD7ctvK1u06AO5lgNc6c49" target="_blank"><button className={styles.btn}>Entre na Fraternidade!</button></a>
                 </div>
                 
                 
