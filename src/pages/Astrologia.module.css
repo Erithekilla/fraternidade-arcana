@@ -116,3 +116,10 @@
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
+
+@media (max-width: 762px){
+  .energia-card,
+  .horarios{
+    width: 85%;
+  }
+}
