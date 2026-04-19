@@ -77,6 +77,73 @@ function Trabalhos(){
                         </div>
                     </div>
                 </div>
+
+                <div className={styles.card}>
+                    <div className={styles.trabalho_card}>
+                        <div className={styles.trabalho_text}>
+                            <h2>Rituais Coletivos</h2>
+                            <h2>R$100</h2>
+                        </div>
+                        <div className={styles.descricao_text}>
+                            <p>Rituais realizados em grupo para potencializar as energias. A força coletiva amplifica os resultados, criando um campo energético poderoso para manifestar seus desejos.</p>
+                            <p className={styles.obs}>Pagamento via PIX. Agende sua participação!</p>
+                        </div>
+                        <div className={styles.link_card}>
+                            <a href="https://wa.me/556192656585?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20rituais%20coletivos%20e%20como%20participar." target="_blank">Clique para contato!</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className={styles.card}>
+                    <div className={styles.trabalho_card}>
+                        <div className={styles.trabalho_text}>
+                            <h2>Trabalhos Espirituais Individuais</h2>
+                            <h2>a partir de R$300</h2>
+                        </div>
+                        <div className={styles.descricao_text}>
+                            <p>Trabalhos espirituais personalizados para situações específicas. Cada ritual é preparado de acordo com sua necessidade, utilizando energias direcionadas para o seu objetivo.</p>
+                            <ul className={styles.preco_lista}>
+                                <li><strong>Amor</strong> — R$300</li>
+                                <li><strong>Amarração Amorosa</strong> — R$500</li>
+                                <li><strong>Banimento e Limpeza Energética</strong> — R$450</li>
+                                <li><strong>Quebra de Amarração</strong> — R$550</li>
+                                <li><strong>Corte de Laço Energético</strong> — R$500</li>
+                                <li><strong>Separação de Casal</strong> — R$600</li>
+                                <li><strong>Justiça Espiritual</strong> — R$500</li>
+                                <li><strong>Transformação Pessoal</strong> — R$500</li>
+                                <li><strong>Equilíbrio / Saúde Espiritual</strong> — R$450</li>
+                                <li><strong>Proteção Espiritual</strong> — R$500</li>
+                                <li><strong>Prosperidade / Abertura de Caminhos</strong> — R$500</li>
+                            </ul>
+                            <p className={styles.obs}>Pagamento via PIX. Entre em contato para agendar!</p>
+                        </div>
+                        <div className={styles.link_card}>
+                            <a href="https://wa.me/556192656585?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20trabalhos%20espirituais%20individuais." target="_blank">Clique para contato!</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div className={styles.card}>
+                    <div className={styles.trabalho_card}>
+                        <div className={styles.trabalho_text}>
+                            <h2>Trabalhos Avançados</h2>
+                            <h2>a partir de R$600</h2>
+                        </div>
+                        <div className={styles.descricao_text}>
+                            <p>Rituais de alta complexidade para situações que exigem poder e dedicação especiais. Trabalhos profundos que mobilizam forças espirituais intensas.</p>
+                            <ul className={styles.preco_lista}>
+                                <li><strong>Magia de Vingança e Destruição</strong> — R$700</li>
+                                <li><strong>Influência e Dominação Mental/Emocional</strong> — R$600</li>
+                                <li><strong>Pacto e Conexão com Entidades</strong> — R$1.111</li>
+                                <li><strong>Garrafa de Destruição</strong> — R$150 (por nome)</li>
+                            </ul>
+                            <p className={styles.obs}>Pagamento via PIX. Consulta prévia necessária.</p>
+                        </div>
+                        <div className={styles.link_card}>
+                            <a href="https://wa.me/556192656585?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20trabalhos%20avançados%20e%20agendar%20uma%20consulta." target="_blank">Clique para contato!</a>
+                        </div>
+                    </div>
+                </div>
             </section>
         </>
     )
